@@ -1,0 +1,25 @@
+body{
+   background-color: rgb(41, 108, 114);
+   padding: 2rem;
+}
+.container{
+   text-align: center;
+   background-color: bisque;
+   max-width: 60%;
+   margin: auto;
+   padding: 1rem;
+   border-radius: 1rem;
+   box-shadow:black inset;
+   
+}
+
+.INPUT{
+   margin: 2rem;
+}
+.btn{
+  margin-right: 7%;
+}
+
+.container button{
+   margin: 10px;
+}
