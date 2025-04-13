@@ -32,11 +32,17 @@ submit.addEventListener('click',function (e){
 function validateGuess(guess) {
     if (isNaN(guess)) {
       alert('PLease enter a valid number');
+      userInput.value = '';
     } else if (guess < 1) {
       alert('PLease enter a number more than 1');
+       userInput.value = '';
     } else if (guess > 100) {
       alert('PLease enter a  number less than 100');
-    }  elsez {
+       userInput.value = '';
+    }  else if (prevGuess.includes(guess)) {
+        alert('You have already guessed this number. Please try a different one.');
+        userInput.value ='';
+    }  else {
    prevGuess.push(guess);
    if (numGuess===10){
 displayGuess(guess);
@@ -100,3 +106,7 @@ function newGame(){
     })
     
 };
+
+function input (){
+userInput.value = ''
+}
