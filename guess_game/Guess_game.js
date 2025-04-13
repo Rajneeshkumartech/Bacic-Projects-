@@ -106,7 +106,3 @@ function newGame(){
     })
     
 };
-
-function input (){
-userInput.value = ''
-}
