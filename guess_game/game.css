@@ -1,12 +1,11 @@
-body{
-background-color: #212121;
-color: #fff;
-text-align: center;
+#wrapper{
+    text-align: center;
 }
 
 #guess{
     font-size: 50px;
 }
+
 #guessfiels{
 height: 3rem;
 width: 15rem;
@@ -15,22 +14,32 @@ font-size: 30px;
 text-align: center;
 padding: 2px;
 }
+
 #wrapper form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   gap: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
 }
 
 #subt{
-    background-color: #212121;
-    color: #fff;
-    cursor: pointer; 
-    height: 2.4rem;
+background-color: #212121;
+color: #fff;
+cursor: pointer; 
+height: 2.4rem;
 width: 12rem;
 font-size: 24px;
 }
 
 .guesses{
-    background-color: #7a7a7a;
+background-color: #7a7a7a;
+}
+
+body #mode{
+height: 1rem;
+position: absolute;
+top: 2px;
+right: 2px;
+background-color: aqua;
+border-radius: 100%;cursor: pointer;
 }
