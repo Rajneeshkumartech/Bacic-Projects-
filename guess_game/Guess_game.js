@@ -1,6 +1,6 @@
 let randomNumber = parseInt(Math.random()*100 + 1)
 // console.log(randomNumber);
-//first of all we store all the selectable elements inti a variable
+//first of all we store all the selectable elements into a variable
 const userInput = document.querySelector("#guessfiels");
 const submit = document.querySelector("#subt");
 const guessSlot = document.querySelector(".guesses");
